@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/GitHub/SergeyBykov/orleans-2/src",
+  "source_base_path": "c:/GitHub/sergeybykov/orleans-2/src",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -459,7 +459,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/deployment/toc.html",
-          "hash": "Gf2K07Cf3T47DFI5LQG0Jw=="
+          "hash": "aSJigB1d4jO9RDG1y/3YZA=="
         }
       },
       "is_incremental": false,
@@ -1181,7 +1181,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/resources/Migration/toc.html",
-          "hash": "SY7spEeinofNjovfY75llw=="
+          "hash": "iI9I13GfsA6jpLBF+oboOg=="
         }
       },
       "is_incremental": false,
@@ -1193,7 +1193,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/resources/Presentations/index.html",
-          "hash": "21UIBvlI4+NwE8DysWTxcw=="
+          "hash": "CuJ875hY6EF+v1sJkE6l3w=="
         }
       },
       "is_incremental": false,
@@ -1332,12 +1332,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidYamlHeader"
+      ],
       "type": "Conceptual",
       "source_relative_path": "Documentation/streaming/streams_quick_start.md",
       "output": {
         ".html": {
           "relative_path": "Documentation/streaming/streams_quick_start.html",
-          "hash": "WJSWaTEinz91OpuoCRXe9g=="
+          "hash": "SyDBHWg0jhDoAchz6p4MgA=="
         }
       },
       "is_incremental": false,
@@ -1361,7 +1364,7 @@
       "output": {
         ".html": {
           "relative_path": "Documentation/toc.html",
-          "hash": "TcrdD3UcLZzEUMI2GdJ4mw=="
+          "hash": "gtlsxwVhzBQUgw7hgNDGXQ=="
         }
       },
       "is_incremental": false,
@@ -2121,7 +2124,7 @@
       "output": {
         ".html": {
           "relative_path": "blog/toc.html",
-          "hash": "TX2b2M0trZsHvFz3jrcSog=="
+          "hash": "ZPqq8H5l9LCu7qHJdwsyrg=="
         }
       },
       "is_incremental": false,
@@ -2157,7 +2160,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "28oaDGNHj7ltcTErl40bUQ=="
+          "hash": "+XbQFjIy1WugUfOPH9Ivzg=="
         }
       },
       "is_incremental": false,
@@ -2182,17 +2185,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 122,
-          "skipped_file_count": 0
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 122,
           "skipped_file_count": 0
         }
       }
